@@ -3,8 +3,8 @@ import pyupbit
 import datetime
 import requests
 
-access = "vcJTH06hDw0Hww6p3ovEszogEkNIDdpCO17V7hA4"
-secret = "Rt5mSxXxGYO0JxNgERPPbFZLMOhppxrNxyoI3C5E"
+access = ""
+secret = ""
 myToken = ""
 
 def post_message(token, channel, text):
