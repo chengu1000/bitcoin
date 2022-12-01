@@ -3,7 +3,7 @@ import pyupbit
 import datetime
 import requests
 
-myToken = "xoxb-4348614544996-4331639062583-5MWdf1vYnbUl4EJdcppuXQ40"
+myToken = ""
 
 def post_message(token, channel, text):
     response = requests.post("https://slack.com/api/chat.postMessage",
