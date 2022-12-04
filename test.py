@@ -116,22 +116,22 @@ while True:
                 post_message(myToken,"#bitcoin", "BTC buy : " +str(sell_result))
             #eth
             eth = get_balance("ETH")
-            if eth > 0.00008:
+            if eth > 0.007:
                 sell_result = upbit.sell_market_order("KRW-ETH", eth*0.9995)
                 post_message(myToken,"#bitcoin", "ETH buy : " +str(sell_result))
             #doge
             doge = get_balance("DOGE")
-            if doge > 0.00008:
+            if doge > 100:
                 sell_result = upbit.sell_market_order("KRW-DOGE", doge*0.9995)
                 post_message(myToken,"#bitcoin", "DOGE buy : " +str(sell_result))
             #xrp
             xrp = get_balance("XRP")
-            if xrp > 0.00008:
+            if xrp > 16.666:
                 sell_result = upbit.sell_market_order("KRW-XRP", xrp*0.9995)
                 post_message(myToken,"#bitcoin", "XRP buy : " +str(sell_result))
             #ADA
             ada = get_balance("ADA")
-            if ada > 0.00008:
+            if ada > 16.666:
                 sell_result = upbit.sell_market_order("KRW-ADA", ada*0.9995)
                 post_message(myToken,"#bitcoin", "ADA buy : " +str(sell_result))
         time.sleep(1)
